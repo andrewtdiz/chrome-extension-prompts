@@ -89,6 +89,12 @@ Load the unpacked extension in Chrome:
 chrome://extensions/
 ```
 
+### Shadcn button example
+
+The content script in `src/contentScript.tsx` logs the current site and, when on
+`chatgpt.com`, injects a Shadcn `Button` rendered with React. This demonstrates
+how to use Shadcn and Tailwind CSS from a content script.
+
 
 
 ## 🤝 Contributing
